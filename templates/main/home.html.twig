@@ -1,0 +1,30 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Game{% endblock %}
+
+{% block css %}
+    <style>
+        body{
+            margin: 0px;
+        }
+        canvas {
+            width: 100%;
+            height: 100%
+        }
+        #container{
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div id="container"></div>
+{% endblock %}
+
+{% block js %}
+    <script src="{{ asset('js/lib/three.js') }}"></script>
+    <script src="{{ asset('js/lib/dat.gui.min.js') }}"></script>
+    <script src="{{ asset('js/lib/OrbitControls.js') }}"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
+{% endblock %}

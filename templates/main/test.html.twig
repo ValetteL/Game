@@ -1,0 +1,25 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Game{% endblock %}
+
+{% block css %}
+    <style>
+        body {
+            font-family: Monospace;
+            font-size: 12px;
+            background-color: #f0f0f0;
+            margin: 0px;
+            overflow: hidden;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+{% endblock %}
+
+{% block js %}
+    <script src="{{ asset('js/lib/ThreeCanvas.js') }}"></script>
+    <script src="{{ asset('js/Cube.js') }}"></script>
+    <script src="{{ asset('js/Plane.js') }}"></script>
+    <script src="{{ asset('js/test.js') }}"></script>
+{% endblock %}
