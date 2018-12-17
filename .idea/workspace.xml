@@ -86,6 +86,9 @@
       <dir>D:\Programmes\xampp\htdocs\game\public\json</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -242,6 +245,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -327,12 +331,12 @@
       <workItem from="1544713400168" duration="4311000" />
       <workItem from="1544778415947" duration="1968000" />
       <workItem from="1544783255140" duration="2402000" />
-      <workItem from="1544801902698" duration="1221000" />
+      <workItem from="1544801902698" duration="1855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59373000" />
+    <option name="totallyTimeSpent" value="60007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
