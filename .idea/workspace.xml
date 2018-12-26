@@ -14,48 +14,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/script.js">
+        <entry file="file://$PROJECT_DIR$/templates/main/test.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1156">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="66" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Planet.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/BuildingType.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Building.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Server/Server.php">
+        <entry file="file://$PROJECT_DIR$/public/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-              <folding>
-                <element signature="e#29#61#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="484">
+              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
+        <entry file="file://$PROJECT_DIR$/public/js/lib/TransformControls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+            <state relative-caret-position="19210">
+              <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/lib/DragComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -64,23 +53,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>webglr</find>
-      <find>ontrols</find>
-      <find>geom</find>
-      <find>mouse</find>
-      <find>update</find>
-      <find>animate</find>
-      <find>material</find>
-      <find>initAnimation</find>
-      <find>uvs</find>
-      <find>render</find>
-      <find>canvas</find>
-      <find>updateha</find>
-      <find>inter</find>
-      <find>interact</find>
+      <find>scene.add(camer</find>
+      <find>.png</find>
+      <find>detect</find>
+      <find>Misc</find>
+      <find>controls</find>
+      <find>random</find>
+      <find>loader</find>
+      <find>adapterFactory</find>
+      <find>mousedown</find>
+      <find>getCoordinates</find>
+      <find>raycaster</find>
+      <find>THREE.ra</find>
+      <find>intersect</find>
+      <find>control</find>
+      <find>transform</find>
       <find>ray</find>
-      <find>center</find>
-      <find>planet</find>
+      <find>dragc</find>
+      <find>Transform</find>
+      <find>drag</find>
+      <find>mesh</find>
+      <find>coordinates</find>
+      <find>box</find>
+      <find>latticeMesh</find>
+      <find>latticeBoxGeometry</find>
+      <find>onEditLatticeChange</find>
+      <find>reloadModel</find>
+      <find>setModel</find>
+      <find>setupLattice</find>
+      <find>onLatticeDrag</find>
+      <find>addObserver</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Programmes\xampp\htdocs\game\public\json</dir>
@@ -92,12 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/templates/main/index.html.twig" />
-        <option value="$PROJECT_DIR$/public/js/three.js" />
-        <option value="$PROJECT_DIR$/templates/layout.html.twig" />
-        <option value="$PROJECT_DIR$/public/js/require.js" />
         <option value="$PROJECT_DIR$/public/js/r.js" />
         <option value="$PROJECT_DIR$/public/js/dat.gui.min.js" />
         <option value="$PROJECT_DIR$/public/js/ParametricGeometries.js" />
@@ -111,13 +107,44 @@
         <option value="$PROJECT_DIR$/public/js/Cube.js" />
         <option value="$PROJECT_DIR$/public/js/lib/ThreeCanvas.js" />
         <option value="$PROJECT_DIR$/public/js/Plane.js" />
-        <option value="$PROJECT_DIR$/src/Controller/MainController.php" />
         <option value="$PROJECT_DIR$/public/js/test2.js" />
-        <option value="$PROJECT_DIR$/templates/main/home.html.twig" />
-        <option value="$PROJECT_DIR$/public/js/test.js" />
-        <option value="$PROJECT_DIR$/templates/main/test.html.twig" />
-        <option value="$PROJECT_DIR$/public/js/script.js" />
         <option value="$PROJECT_DIR$/src/Server/Server.php" />
+        <option value="$PROJECT_DIR$/src/Command/GameServerCommand.php" />
+        <option value="$PROJECT_DIR$/src/Controller/MainController.php" />
+        <option value="$PROJECT_DIR$/public/js/ws.js" />
+        <option value="$PROJECT_DIR$/src/Entity/Planet.php" />
+        <option value="$PROJECT_DIR$/public/js/lib/GLTFLoader.js" />
+        <option value="$PROJECT_DIR$/templates/main/home.html.twig" />
+        <option value="$PROJECT_DIR$/public/js/lib/distort.js" />
+        <option value="$PROJECT_DIR$/public/js/lib/misc.js" />
+        <option value="$PROJECT_DIR$/public/js/VertexTrianglesMap.js" />
+        <option value="$PROJECT_DIR$/public/js/CoordinateCalculator.js" />
+        <option value="$PROJECT_DIR$/public/js/Acos.js" />
+        <option value="$PROJECT_DIR$/public/js/test.js" />
+        <option value="$PROJECT_DIR$/public/js/lib/MeanValueCoordinates.js" />
+        <option value="$PROJECT_DIR$/public/js/MeanValueCoordinates.js" />
+        <option value="$PROJECT_DIR$/public/js/test/test.js" />
+        <option value="$PROJECT_DIR$/public/js/test/controller.js" />
+        <option value="$PROJECT_DIR$/public/js/lib/dat.gui.min.js" />
+        <option value="$PROJECT_DIR$/public/js/test/MainView.js" />
+        <option value="$PROJECT_DIR$/public/js/test/Controller.js" />
+        <option value="$PROJECT_DIR$/public/js/test/RenderingContext.js" />
+        <option value="$PROJECT_DIR$/public/js/test/Lattice.js" />
+        <option value="$PROJECT_DIR$/public/js/test/Observable.js" />
+        <option value="$PROJECT_DIR$/public/js/test/adapter/GeometryAdapterFactory.js" />
+        <option value="$PROJECT_DIR$/public/js/test/adapter/GeometryAdapter.js" />
+        <option value="$PROJECT_DIR$/public/js/test/adapter/UnindexedBufferGeometryAdapter.js" />
+        <option value="$PROJECT_DIR$/public/js/test/adapter/IndexedBufferGeometryAdapter.js" />
+        <option value="$PROJECT_DIR$/public/js/test/MeanValueCoordinates.js" />
+        <option value="$PROJECT_DIR$/public/js/test/VertexTrianglesMap.js" />
+        <option value="$PROJECT_DIR$/public/js/test/CoordinateCalculator.js" />
+        <option value="$PROJECT_DIR$/public/js/test/Acos.js" />
+        <option value="$PROJECT_DIR$/public/js/lib/TransformControls.js" />
+        <option value="$PROJECT_DIR$/public/js/lib/three.js" />
+        <option value="$PROJECT_DIR$/templates/main/test.html.twig" />
+        <option value="$PROJECT_DIR$/public/js/lib/DragComponent.js" />
+        <option value="$PROJECT_DIR$/public/js/test/main.js" />
+        <option value="$PROJECT_DIR$/public/js/script.js" />
       </list>
     </option>
   </component>
@@ -267,7 +294,69 @@
             <path>
               <item name="game" type="b2602c69:ProjectViewProjectNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+              <item name="spaceKit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+              <item name="spaceKit" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
+              <item name="spaceKit" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="GLTF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="game" type="b2602c69:ProjectViewProjectNode" />
@@ -281,6 +370,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -292,10 +392,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmes\xampp\htdocs\game\public\js\test" />
       <recent name="D:\Programmes\xampp\htdocs\game\public\js" />
       <recent name="D:\Programmes\xampp\htdocs\game\public\js\lib" />
     </key>
@@ -331,18 +432,22 @@
       <workItem from="1544713400168" duration="4311000" />
       <workItem from="1544778415947" duration="1968000" />
       <workItem from="1544783255140" duration="2402000" />
-      <workItem from="1544801902698" duration="1855000" />
+      <workItem from="1544801902698" duration="2238000" />
+      <workItem from="1545043024750" duration="58222000" />
+      <workItem from="1545383181144" duration="13207000" />
+      <workItem from="1545818561596" duration="336000" />
+      <workItem from="1545818970264" duration="6924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60007000" />
+    <option name="totallyTimeSpent" value="139079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.271855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28411514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +460,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,144 +472,15 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/sauvegarde clé/ENI/7ème période - Symfony/Semaine 3/Jour 5/batailleNavale/bin/console">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/r.js" />
-    <entry file="file://$PROJECT_DIR$/public/js/lib/ParametricGeometries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="262" column="106" selection-start-line="262" selection-start-column="106" selection-end-line="262" selection-end-column="106" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/geometry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="74173" selection-start-line="1" selection-start-column="74173" selection-end-line="1" selection-end-column="74173" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/moon.json" />
-    <entry file="file://$PROJECT_DIR$/public/js/lib/OrbitControls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="1051" lean-forward="true" selection-start-line="1051" selection-end-line="1051" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/dat.gui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1238" selection-start-line="12" selection-start-column="1238" selection-end-line="12" selection-end-column="1238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/wildmill_pallet.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/Windmill.blend">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/Windmill.mtl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/Windmill.obj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/hagish-fgd-cube/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/DragControls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="285" column="62" selection-start-line="285" selection-start-column="62" selection-end-line="285" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/tween.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/TrackBallControls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="618" column="72" selection-start-line="618" selection-start-column="72" selection-end-line="618" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/prints/5.png" />
+    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/Windmill.blend" />
+    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/Windmill.mtl" />
+    <entry file="file://$PROJECT_DIR$/public/ressources/Windmill/Model/Windmill.obj" />
+    <entry file="file://$PROJECT_DIR$/public/ressources/hagish-fgd-cube/README.txt" />
+    <entry file="file://$PROJECT_DIR$/public/js/lib/DragControls.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/lib/tween.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/lib/TrackBallControls.js" />
     <entry file="file://$PROJECT_DIR$/templates/main/test" />
-    <entry file="file://$PROJECT_DIR$/public/js/lib/ThreeCanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="230" selection-start-line="1" selection-start-column="230" selection-end-line="1" selection-end-column="230" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="43400" column="13" selection-start-line="43400" selection-start-column="13" selection-end-line="43400" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -512,20 +488,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/Cube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/Plane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/Cube.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/Plane.js" />
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -533,72 +497,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/test2.js">
+    <entry file="file://$PROJECT_DIR$/public/js/test2.js" />
+    <entry file="file://$USER_HOME$/Downloads/websocket/wsserver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="58" selection-start-line="58" selection-end-line="59" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/test.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
+        <state>
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ws.js" />
+    <entry file="file://$PROJECT_DIR$/src/Server/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="149" selection-start-line="58" selection-start-column="149" selection-end-line="58" selection-end-column="149" />
+          <folding>
+            <element signature="e#29#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/GameServerCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#31#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#34#99#0#PHP" expanded="true" />
-            <element signature="e#467#488#0#PHP" expanded="true" />
+            <element signature="e#503#524#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Building.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/BuildingType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/earth.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/misc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Planet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/dat.gui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/ThreeCanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.collection.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/test/RenderingContext.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/Lattice.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/Observable.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/adapter/GeometryAdapterFactory.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/adapter/GeometryAdapter.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/adapter/UnindexedBufferGeometryAdapter.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/adapter/IndexedBufferGeometryAdapter.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/MeanValueCoordinates.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/CoordinateCalculator.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/MainView.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/Controller.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/Acos.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/test/VertexTrianglesMap.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/lib/GLTFLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        <state relative-caret-position="442">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.promise.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="4902" column="8" selection-start-line="4902" selection-start-column="8" selection-end-line="4902" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ressources/planet.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ressources/planet.bin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/TransformControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19210">
+          <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/lib/DragComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/test/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1165">
+          <caret line="855" column="26" selection-start-line="855" selection-start-column="26" selection-end-line="855" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/test.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1156">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Planet.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/BuildingType.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Building.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="e#29#61#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="484">
+          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
         </state>
       </provider>
     </entry>

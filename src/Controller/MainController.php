@@ -13,6 +13,7 @@ class MainController extends AbstractController
     public function home()
     {
         return $this->render('main/home.html.twig', [
+            'ws_url' => 'localhost:8001',
         ]);
     }
 

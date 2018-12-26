@@ -24,7 +24,11 @@
 
 {% block js %}
     <script src="{{ asset('js/lib/three.js') }}"></script>
+    <script src="{{ asset('js/lib/GLTFLoader.js') }}"></script>
     <script src="{{ asset('js/lib/dat.gui.min.js') }}"></script>
     <script src="{{ asset('js/lib/OrbitControls.js') }}"></script>
+    <script type="text/javascript">
+        var wsUrl = '{{ ws_url }}';
+    </script>
     <script src="{{ asset('js/script.js') }}"></script>
 {% endblock %}

@@ -56,7 +56,7 @@ class Server implements MessageComponentInterface
     function onMessage(ConnectionInterface $from, $msg)
     {
         $totalClients = count($this->clients) - 1;
-        echo 'Connection #'.$from->resourceId.' sending message '.$msg.' to '.$totalClients.' other connection'.$totalClients === 1 ? '' : 's';
+        echo sprintf("Connection #".$from->resourceId." sending message ".$msg." to ".$totalClients." other connection%s \n", $totalClients === 1 ? '' : 's');
         foreach($this->clients as $client){
             if($from !== $client){
                 $client->send($msg);
