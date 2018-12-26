@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main/test.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="66" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+            <state relative-caret-position="603">
+              <caret line="181" selection-start-line="181" selection-end-line="181" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/test/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="1139" column="25" selection-start-line="1139" selection-start-column="25" selection-end-line="1139" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/lib/TransformControls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19210">
+            <state relative-caret-position="841">
               <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
             </state>
           </provider>
@@ -53,8 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scene.add(camer</find>
-      <find>.png</find>
       <find>detect</find>
       <find>Misc</find>
       <find>controls</find>
@@ -83,6 +93,8 @@
       <find>setupLattice</find>
       <find>onLatticeDrag</find>
       <find>addObserver</find>
+      <find>planets</find>
+      <find>radii</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Programmes\xampp\htdocs\game\public\json</dir>
@@ -141,8 +153,8 @@
         <option value="$PROJECT_DIR$/public/js/test/Acos.js" />
         <option value="$PROJECT_DIR$/public/js/lib/TransformControls.js" />
         <option value="$PROJECT_DIR$/public/js/lib/three.js" />
-        <option value="$PROJECT_DIR$/templates/main/test.html.twig" />
         <option value="$PROJECT_DIR$/public/js/lib/DragComponent.js" />
+        <option value="$PROJECT_DIR$/templates/main/test.html.twig" />
         <option value="$PROJECT_DIR$/public/js/test/main.js" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
       </list>
@@ -278,7 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,6 +396,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,18 +448,19 @@
       <workItem from="1545043024750" duration="58222000" />
       <workItem from="1545383181144" duration="13207000" />
       <workItem from="1545818561596" duration="336000" />
-      <workItem from="1545818970264" duration="6924000" />
+      <workItem from="1545818970264" duration="7523000" />
+      <workItem from="1545834126956" duration="6606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139079000" />
+    <option name="totallyTimeSpent" value="146284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28411514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -636,13 +649,6 @@
     <entry file="file://$PROJECT_DIR$/public/ressources/planet.bin">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/lib/TransformControls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19210">
-          <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/lib/DragComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -650,24 +656,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/test/main.js">
+    <entry file="file://$PROJECT_DIR$/templates/main/test.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1165">
-          <caret line="855" column="26" selection-start-line="855" selection-start-column="26" selection-end-line="855" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/test.html.twig">
+    <entry file="file://$PROJECT_DIR$/public/js/lib/TransformControls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="66" />
+        <state relative-caret-position="841">
+          <caret line="1130" selection-start-line="1130" selection-end-line="1130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/test/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="1139" column="25" selection-start-line="1139" selection-start-column="25" selection-end-line="1139" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+        <state relative-caret-position="603">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
         </state>
       </provider>
     </entry>

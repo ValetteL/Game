@@ -1,6 +1,7 @@
 var container, gui, construction, scene, camera, renderer, controls, planet, building, loader, radius;
 var construct = false;
 var modify = false;
+var ships = [];
 
 const vector = new THREE.Vector3();
 var raycaster = new THREE.Raycaster();
@@ -8,7 +9,7 @@ var mouse = new THREE.Vector2();
 var intersects;
 var spherical = new THREE.Spherical();
 var clock = new THREE.Clock();
-var delta = 0;
+var delta = 0, radii = 0;
 
 var r = 6;
 
@@ -166,12 +167,23 @@ function modifyPlanet(object) {
 
 function buildObject(position) {
     loader.load('./ressources/spaceKit/Models/GLTF/spaceShip.gltf', function(gltf){
-        var obj = gltf.scene;
+        var ship = gltf.scene;
         //console.log(position);
-        obj.position.copy(position);
+        var size = 4 + Math.random() * 7;
+        ship.position.copy(position);
 
-        console.log(building);
-        building.add(obj);
+        ship.orbitRadius = 8;
+        ship.rotSpeed = 0.005 + 0.5 * 0.001;
+        ship.rotSpeed *= 0.5 < .10 ? -1 : 1;
+        ship.rot = 0.5;
+        ship.orbitSpeed = (0.02 - (ships.length - 1) * 0.0048) * 0.25;
+        ship.orbit = 0.5 * Math.PI * 2;
+        ship.position.set(planet.orbitRadius, 0, 0);
+
+        radii = ship.orbitRadius;
+
+        ships.push(ship);
+        building.add(ship);
     }, undefined, function(error){
         console.error(error);
     });
@@ -186,7 +198,15 @@ function update()
         controls.enabled = true;
     }
 
-    delta = clock.getDelta();
+    for (var s in ships) {
+        var ship = ships[s];
+        ship.rot += ship.rotSpeed;
+        ship.rotation.y = ship.rot;
+        ship.orbit += ship.orbitSpeed;
+        ship.position.set(Math.cos(ship.orbit) * ship.orbitRadius, 0, Math.sin(ship.orbit) * ship.orbitRadius);
+    }
+
+    //delta = clock.getDelta();
     //building.rotation.y += THREE.Math.degToRad(9) * delta;
 
 }
